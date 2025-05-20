@@ -205,50 +205,50 @@ export default function Home() {
   const projects = [
     {
       id: 1,
-      title: "AI-Powered Analytics Dashboard",
-      tech: "Django, React, Machine Learning",
+      title: "Agente de Viagens",
+      tech: "Python, LangChain, NLP, ChromaDB",
       category: "ai",
       image: "/placeholder.svg?height=300&width=400",
-      githubUrl: "https://github.com/yourusername/project1",
+      githubUrl: "https://github.com/AndressaSilva0/travel-agent",
     },
     {
       id: 2,
-      title: "NLP Document Classifier",
-      tech: "Python, LangChain, LLMs",
-      category: "ai",
+      title: "Gerenciador de Assinaturas",
+      tech: "Python, Django Ninja, SQLite",
+      category: "web",
       image: "/placeholder.svg?height=300&width=400",
-      githubUrl: "https://github.com/yourusername/project2",
+      githubUrl: "https://github.com/AndressaSilva0/gerenciador-de-assinaturas",
     },
     {
       id: 3,
-      title: "E-commerce Platform",
-      tech: "Django, Angular, SQLite",
+      title: "Api Damas-Tech",
+      tech: "Python, Django Ninja, SQLite",
       category: "web",
       image: "/placeholder.svg?height=300&width=400",
-      githubUrl: "https://github.com/yourusername/project3",
+      githubUrl: "https://github.com/Damas-Tech/api_damas_tech",
     },
     {
       id: 4,
-      title: "Computer Vision App",
-      tech: "Python, OpenCV, TensorFlow",
+      title: "Detecção de Código de Barras",
+      tech: "Python, OpenCV, Yolo",
       category: "ai",
       image: "/placeholder.svg?height=300&width=400",
       githubUrl: "https://github.com/yourusername/project4",
     },
     {
       id: 5,
-      title: "Real-time Chat Application",
-      tech: "Node.js, React, TypeScript",
+      title: "Health Clinica System",
+      tech: "Django, Python, SQLite, Bootstrap",
       category: "web",
       image: "/placeholder.svg?height=300&width=400",
       githubUrl: "https://github.com/yourusername/project5",
     },
     {
       id: 6,
-      title: "Data Visualization Platform",
-      tech: "Django, D3.js, Tailwind",
+      title: "Studio Ghibli Blog",
+      tech: "Angular, Typescript, Javascript",
       category: "data",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/blog.gif?height=300&width=400",
       githubUrl: "https://github.com/yourusername/project6",
     },
   ]
@@ -517,16 +517,16 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <div className="inline-block bg-purple-900/30 px-4 py-1 rounded-full text-purple-300 text-sm font-medium mb-2">
-              Desenvolvedor Full Stack & Especialista em IA
+              Desenvolvedora Full Stack & Especialista em IA
             </div>
             <h1 className="text-5xl md:text-6xl font-bold">
-              <span className="text-white block">Olá, eu sou</span>
+              <span className="text-white block">Olá, eu sou Andressa Silva</span>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-purple-600 block">
-                Desenvolvedor Full Stack
+                Desenvolvedora Full Stack
               </span>
             </h1>
             <p className="text-gray-300 text-lg max-w-md">
-              Especializado em Python, Django, React, Angular e tecnologias de IA/ML. Construindo aplicações web
+              Especializada em Python, Django, React, Angular e tecnologias de IA/ML. Construindo aplicações web
               inteligentes e escaláveis.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
@@ -566,7 +566,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-b from-purple-500/20 to-purple-700/20 blur-2xl"></div>
               <div className="relative h-full w-full overflow-hidden rounded-3xl border-4 border-purple-500/50 z-10">
                 <Image
-                  src="/placeholder.svg?height=450&width=350"
+                  src="/andressa.jpg?height=450&width=350"
                   alt="Developer"
                   width={350}
                   height={450}
@@ -706,15 +706,16 @@ export default function Home() {
                 className="grid grid-cols-2 sm:grid-cols-3 gap-4"
               >
                 {[
-                  { name: "Python", icon: "P" },
-                  { name: "React", icon: "R" },
-                  { name: "Django", icon: "D" },
-                  { name: "Angular", icon: "A" },
-                  { name: "Node.js", icon: "N" },
-                  { name: "TypeScript", icon: "TS" },
-                  { name: "JavaScript", icon: "JS" },
-                  { name: "HTML/CSS", icon: "H" },
-                  { name: "SQL", icon: "S" },
+                  { name: "Python", icon: "python" },
+                  { name: "React", icon: "React" },
+                  { name: "Django", icon: "django" },
+                  { name: "Angular", icon: "angular" },
+                  { name: "Node.js", icon: "node" },
+                  { name: "TypeScript", icon: "typescript" },
+                  { name: "JavaScript", icon: "javascript" },
+                  { name: "HTML", icon: "html" },
+                  { name: "CSS", icon: "css" },
+                  { name: "SQLite", icon: "sqlite" },
                 ].map((skill, index) => (
                   <motion.div
                     key={index}
@@ -726,7 +727,9 @@ export default function Home() {
                       whileHover={{ rotate: 10 }}
                       className="h-8 w-8 rounded-full bg-purple-800/50 flex items-center justify-center"
                     >
-                      <span className="text-purple-300 text-sm font-bold">{skill.icon}</span>
+                      <span className="text-purple-300 text-sm font-bold">
+                        <img src={'/'+skill.icon+'.png'} title={skill.name}/>
+                      </span>
                     </motion.div>
                     <span className="text-gray-300 text-sm">{skill.name}</span>
                   </motion.div>
@@ -1123,14 +1126,14 @@ export default function Home() {
             >
               <h3 className="text-2xl font-bold text-white">Entre em Contato</h3>
               <p className="text-gray-300">
-                Estou interessado em oportunidades freelance – especialmente projetos ambiciosos ou de grande porte. No
+                Estou interessada em oportunidades de emprego – especialmente projetos ambiciosos ou de grande porte. No
                 entanto, se você tiver outras solicitações ou perguntas, não hesite em me contatar.
               </p>
               <motion.div variants={staggerContainer} initial="hidden" animate="visible" className="space-y-4">
                 {[
-                  { icon: <Mail className="h-5 w-5 text-purple-400" />, text: "hello@example.com" },
-                  { icon: <Phone className="h-5 w-5 text-purple-400" />, text: "+1 (555) 123-4567" },
-                  { icon: <MapPin className="h-5 w-5 text-purple-400" />, text: "São Paulo, Brasil" },
+                  { icon: <Mail className="h-5 w-5 text-purple-400" />, text: "andressasp68@gmail.com" },
+                  { icon: <Phone className="h-5 w-5 text-purple-400" />, text: "+55 (99) 99111-6301" },
+                  { icon: <MapPin className="h-5 w-5 text-purple-400" />, text: "Maranhão, Brasil" },
                 ].map((item, index) => (
                   <motion.div key={index} variants={itemFadeIn} className="flex items-center space-x-4">
                     <motion.div
