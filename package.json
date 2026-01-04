@@ -73,6 +73,10 @@
   "overrides": {
     "react-day-picker": {
       "react": "$react"
+    },
+    "vaul": {
+      "react": "$react",
+      "react-dom": "$react-dom"
     }
   }
 }
