@@ -110,7 +110,7 @@ export function Hero() {
                     initial={{ opacity: 0, x: -50 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
-                    className="space-y-4 md:space-y-6"
+                    className="space-y-4 md:space-y-6 order-2 sm:order-1"
                 >
                     <div className="inline-block px-4 py-1.5 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-300 text-xs md:text-sm font-medium">
                         {personalInfo.role}
@@ -197,7 +197,7 @@ export function Hero() {
 
                 <motion.div
                     style={{ y: y1 }}
-                    className="relative lg:h-[600px] flex items-center justify-center p-10"
+                    className="relative lg:h-[600px] flex items-center justify-center p-10 order-1 sm:order-2"
                 >
                     <div className="relative w-full max-w-sm md:max-w-md aspect-square md:aspect-[3/4]">
                         {/* Abstract shapes behind image */}
