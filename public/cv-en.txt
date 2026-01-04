@@ -1,0 +1,21 @@
+Andressa Silva
+Desenvolvedora Full Stack & Especialista em IA
+
+SUMMARY
+Specialized in Python, Django, React, Angular, and AI/ML technologies. Building intelligent and scalable web applications.
+
+CONTACT
+Email: andressasp68@gmail.com
+Phone: +55 (99) 99111-6301
+LinkedIn: linkedin.com/in/andressa-silva-29430a218/
+GitHub: github.com/AndressaSilva0
+
+SKILLS
+Python, React, Docker, PHP, Laravel, MySQL, PostgreSQL, Django, Angular, Node.js, TypeScript.
+
+PROJECTS
+- FEMAQUA: PHP Web Application
+- Damas Tech API: Laravel/Docker
+- Api Travel Agent: Python AI
+- Page Agente Viagens: TypeScript
+...and more.

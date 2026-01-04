@@ -1,0 +1,12 @@
+Name,Role,Email,Phone,LinkedIn,GitHub
+Andressa Silva,"Full Stack Developer & AI Specialist",andressasp68@gmail.com,"+55 (99) 99111-6301",linkedin.com/in/andressa-silva-29430a218/,github.com/AndressaSilva0
+
+Section,Item,Details
+Skills,Languages,"Python, JavaScript, TypeScript, PHP, C"
+Skills,Frameworks,"React, Angular, Django, Laravel, Node.js"
+Skills,Tools,"Docker, MySQL, PostgreSQL, SQLite"
+
+Project,Tech,Category,Description
+FEMAQUA,PHP,Web,Ferramentas Maravilhosas Que Adoro
+Damas Tech API,"Laravel, Docker",Web,"Educational platform for women in tech"
+Api Travel Agent,Python,AI,"API for intelligent travel agent"

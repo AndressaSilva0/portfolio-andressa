@@ -1,30 +1,77 @@
-# Portfolio Andressa
+# Portfolio Andressa Silva
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Um portfólio moderno e interativo construído com as tecnologias mais recentes do ecossistema React.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/andressasilva0s-projects/v0-roxo-portfolio)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/a1QqLbl5WbE)
+![Portfolio Preview](public/placeholder.svg)
 
-## Overview
+## 🚀 Sobre o Projeto
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+Este é o meu portfólio profissional, desenvolvido para demonstrar minhas habilidades, experiência e projetos em desenvolvimento web e inteligência artificial. O projeto foca em uma experiência de usuário rica, com animações suaves e um design responsivo.
 
-## Deployment
+### ✨ Funcionalidades
 
-Your project is live at:
+- **Design Responsivo**: Adaptável a todos os dispositivos (Mobile, Tablet, Desktop).
+- **Modo Escuro**: Tema visual imersivo e moderno.
+- **Animações**: Uso de Framer Motion para transições fluidas e micro-interações.
+- **Filtragem de Projetos**: Organização por categorias (Web, AI, Dados, CS).
+- **Componentização**: Arquitetura modular e limpa.
 
-**[https://vercel.com/andressasilva0s-projects/v0-roxo-portfolio](https://vercel.com/andressasilva0s-projects/v0-roxo-portfolio)**
+## 🛠️ Tecnologias Utilizadas
 
-## Build your app
+- **[Next.js 15](https://nextjs.org/)**: Framework React para produção, utilizando App Router.
+- **[React 19](https://react.dev/)**: Biblioteca para construção interfaces de usuário.
+- **[TypeScript](https://www.typescriptlang.org/)**: Tipagem estática para código mais seguro.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Framework de utilitários CSS para estilização rápida.
+- **[Framer Motion](https://www.framer.com/motion/)**: Biblioteca de animações para React.
+- **[Shadcn/ui](https://ui.shadcn.com/)**: Componentes de UI reutilizáveis baseados em Radix UI.
+- **[Lucide React](https://lucide.dev/)**: Biblioteca de ícones moderna e leve.
 
-Continue building your app on:
+## 📂 Estrutura do Projeto
 
-**[https://v0.dev/chat/projects/a1QqLbl5WbE](https://v0.dev/chat/projects/a1QqLbl5WbE)**
+```bash
+portfolio-andressa/
+├── app/                  # Páginas e layout do Next.js
+│   ├── globals.css       # Estilos globais
+│   ├── layout.tsx        # Layout raiz
+│   └── page.tsx          # Página principal
+├── components/           # Componentes React
+│   ├── layout/           # Componentes de estrutura (Navbar, Footer)
+│   ├── sections/         # Seções da página (Hero, Projects, etc.)
+│   └── ui/               # Componentes base (Botões, Cards, etc.)
+├── lib/                  # Utilitários e dados
+│   ├── data.ts           # Dados estáticos (Projetos, Skills)
+│   └── utils.ts          # Helpers
+└── public/               # Ativos estáticos (Imagens, ícones)
+```
 
-## How It Works
+## 🚀 Como Executar
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+1.  **Clone o repositório**
+    ```bash
+    git clone https://github.com/AndressaSilva0/portfolio-andressa-react.git
+    cd portfolio-andressa-react/portfolio-andressa
+    ```
+
+2.  **Instale as dependências**
+    ```bash
+    npm install
+    # ou
+    pnpm install
+    # ou
+    yarn install
+    ```
+
+3.  **Execute o servidor de desenvolvimento**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Acesse no navegador**
+    Abra [http://localhost:3000](http://localhost:3000) para ver o resultado.
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+Desenvolvido com 💜 por [Andressa Silva](https://github.com/AndressaSilva0)

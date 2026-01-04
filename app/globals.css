@@ -4,31 +4,40 @@
 
 @layer base {
   :root {
-    --background: 224 71% 4%;
-    --foreground: 213 31% 91%;
+    /* Deep tech purple background - #0f0720 */
+    --background: 260 62% 8%;
+    /* Soft lavender white for text */
+    --foreground: 270 20% 95%;
 
-    --muted: 223 47% 11%;
-    --muted-foreground: 215.4 16.3% 56.9%;
+    /* Deep purple muted tone */
+    --muted: 265 40% 15%;
+    --muted-foreground: 265 20% 70%;
 
-    --accent: 216 34% 17%;
-    --accent-foreground: 210 40% 98%;
+    /* Darker purple for accents */
+    --accent: 265 50% 20%;
+    --accent-foreground: 270 20% 95%;
 
-    --popover: 224 71% 4%;
-    --popover-foreground: 215 20.2% 65.1%;
+    /* Same as background for popovers */
+    --popover: 260 62% 8%;
+    --popover-foreground: 270 20% 95%;
 
-    --border: 216 34% 17%;
-    --input: 216 34% 17%;
+    /* Purple borders */
+    --border: 265 30% 20%;
+    --input: 265 30% 20%;
 
-    --card: 224 71% 4%;
-    --card-foreground: 213 31% 91%;
+    /* Slightly lighter dark purple for cards - #1a0f2e */
+    --card: 265 50% 12%;
+    --card-foreground: 270 20% 95%;
 
+    /* Electric purple primary - #9333ea */
     --primary: 271 91% 65%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 222.2 47.4% 11.2%;
-    --secondary-foreground: 210 40% 98%;
+    /* Dark violet secondary */
+    --secondary: 265 50% 20%;
+    --secondary-foreground: 270 20% 95%;
 
-    --destructive: 0 63% 31%;
+    --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
     --ring: 271 91% 65%;
@@ -41,6 +50,7 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
@@ -56,6 +66,7 @@
     from {
       transform: rotate(0deg);
     }
+
     to {
       transform: rotate(360deg);
     }
