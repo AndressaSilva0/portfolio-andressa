@@ -72,8 +72,12 @@ export function Contact() {
             })
 
             setFormData({ name: "", email: "", subject: "", message: "" })
-        } catch (error) {
-            console.error("EmailJS Error:", error)
+        } catch (error: any) {
+            console.error("FAILED...", error)
+            // EmailJS often returns an error object with a 'text' property
+            if (error.text) {
+                console.error("EmailJS Error Text:", error.text)
+            }
             toast({
                 title: "Erro ao enviar",
                 description: "Ocorreu um erro ao enviar sua mensagem. Tente novamente mais tarde.",
